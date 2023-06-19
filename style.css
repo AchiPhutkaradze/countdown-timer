@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+body {
+  font-family: "Red Hat Text";
+  background-image: url(./assets/bg-stars.svg);
+  background-color: #1d1e28;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header {
+  padding: 142px 24px 0 24px;
+}
+h1 {
+  font-size: 18px;
+  line-height: 23.81px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.box {
+  height: 71px;
+  width: 70px;
+  background-color: #343650;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fb5e84;
+  font-weight: 700;
+}
+main {
+  padding: 54px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 92px;
+}
+.container {
+  display: flex;
+  gap: 16px;
+}
+.text {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color: #8385a9;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 7px;
+  text-align: center;
+}
+footer {
+  background-image: url(./assets/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.daysss {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 22px;
+    line-height: 29.11px;
+  }
+  .box {
+    width: 148px;
+    height: 124.02px;
+    font-size: 80px;
+    line-height: 71px;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header {
+    padding: 132px 24px 0 24px;
+  }
+  .container {
+    gap: 37px;
+    position: relative;
+    top: 86px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 6px;
+  }
+  footer{
+    height: 160px;
+  }
+}
