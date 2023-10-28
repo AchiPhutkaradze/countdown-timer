@@ -4,8 +4,8 @@ const minutes = document.querySelector(".minutes");
 const seconds = document.querySelector(".seconds");
 
 function myfunction() {
-  let time = new Date("july 29,2023 21:48:00").getTime();
-  console.log(time);
+  let time = new Date("december 29,2023 21:48:00").getTime();
+
   let now = new Date();
   let clock = time - now;
   let d = Math.floor(clock / (1000 * 60 * 60 * 24));
@@ -19,4 +19,3 @@ function myfunction() {
   seconds.innerHTML = s;
 }
 setInterval(myfunction, 1000);
-
